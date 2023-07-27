@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiran -Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(202, 234, 141);
+            color: black;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(178, 218, 104);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 25px;
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav ul li a:hover {
+            color: green;
+            font-size: 1.05rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #5cb42f;
+            height: 1.5px;
+            margin: 45px 85px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 95px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+        }
+
+        .leftsection .button{
+            padding: 50px 0px;
+        }
+
+        .leftsection .btn {
+            padding: 8px 22px;
+            border: 3px solid;
+            background-color: #b7e364;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .green {
+            color: green;
+            font-size: 40px;
+        }
+
+        #element {
+            color: green;
+            font-size: 38px;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        .secondsection h1 {
+            font-size: 1.5rem;
+
+        }
+
+        .text-gray {
+            color: rgb(81, 80, 80);
+        }
+
+        .secondsection .box {
+            background-color: #a6a60a;
+            width: 80vw;
+            height: 2px;
+            margin: 80px 0px;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 3px;
+            background-color: #a6a60a;
+            margin: 0px 148px;
+        }
+
+        .image-top {
+            width: 40px;
+            position: relative;
+            top: -45px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            width: 218px;
+            top: 61px;
+        }
+
+        .vertical-desc {
+            color: olive;
+            position: relative;
+            top: 77px;
+            width: 210px;
+            font-size: 15px;
+        }
+
+        footer {
+            background-color: rgb(142 185 60);
+            height: 200px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 40px 86px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 200px;
+        }
+
+        footer .footer-rights {
+            background-color: rgb(142 185 60);
+            color: #423a3a;
+            text-align: center;
+            padding: 12px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Kiran's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="\">Home</a></li>
+                    <li><a href="\">About</a></li>
+                    <li><a href="\">Service</a></li>
+                    <li><a href="\">Projects</a></li>
+                    <li><a href="\">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hello, My name is <span class="green">Kiran</span>
+                <div>and I am a passionate
+                    <div><span id="element"></span></div>
+                    <div class="button">
+                        <button class="btn">Download Resume</button>
+                        <button class="btn">Github</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="kd.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="vertical-title">Html developer (2022-23)</div>
+                    <div class="vertical-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+                        ratione ut in reiciendis aliquam quisquam eum, aliquid porro est ipsam hic eos delectus.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="cs.png" alt="">
+                    <div class="vertical-title">CSS developer (2022-23)</div>
+                    <div class="vertical-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+                        ratione ut in reiciendis aliquam quisquam eum, aliquid porro est ipsam hic eos delectus.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="js.png" alt="">
+                    <div class="vertical-title">Javascript developer (2022-23)</div>
+                    <div class="vertical-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+                        ratione ut in reiciendis aliquam quisquam eum, aliquid porro est ipsam hic eos delectus.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="react.png" alt="">
+                    <div class="vertical-title"> reactjs developer (2023)</div>
+                    <div class="vertical-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+                        ratione ut in reiciendis aliquam quisquam eum, aliquid porro est ipsam hic eos delectus.</div>
+                </div>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Kiran's Developer Portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Help</li>
+                    <li>Contact us</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Help</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Help</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-rights">
+            Copyright &#169; www.kiranpotfolio.com | All rights are reserved.
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer.', 'User interface designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
